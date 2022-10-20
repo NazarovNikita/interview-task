@@ -1,0 +1,15 @@
+<h2 class="landing landing__api-title">
+    <img src="/pointer.svg" />
+    Environment Variables
+    <img src="/pointer.svg" />
+</h2>
+
+<div class="landing__hero">
+    <ul class="list__var">
+        {{#variables}}
+        <li>
+            {{key}} <span class="value">{{value}}</span>
+        </li>
+        {{/variables}}
+    </ul>
+</div>
